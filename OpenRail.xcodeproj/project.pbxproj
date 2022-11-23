@@ -21,6 +21,7 @@
 		2A8486B9292EBE4600757567 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A8486BC292EBE4600757567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A8486E3292EC64600757567 /* UIMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMap.swift; sourceTree = "<group>"; };
+		2A8486E5292EDCE400757567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +54,7 @@
 		2A8486B4292EBE4500757567 /* OpenRail */ = {
 			isa = PBXGroup;
 			children = (
+				2A8486E5292EDCE400757567 /* Info.plist */,
 				2A8486B5292EBE4500757567 /* OpenRailApp.swift */,
 				2A8486B7292EBE4500757567 /* ContentView.swift */,
 				2A8486E3292EC64600757567 /* UIMap.swift */,
@@ -274,6 +276,7 @@
 				DEVELOPMENT_TEAM = H8AB6SLK5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenRail/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -303,6 +306,7 @@
 				DEVELOPMENT_TEAM = H8AB6SLK5U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OpenRail/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
