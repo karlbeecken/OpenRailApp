@@ -21,7 +21,7 @@ struct ContentView: View {
 
     @State var currentOverlayTarget = "standard"
     let overlayTargets: [String] = ["standard", "maxspeed", "signals", "electrified", "gauge"]
-    let overlayTargetLabels: [String] = ["Standard", "Max Speeds", "Signals", "Electrification", "Track Gauge"]
+    let overlayTargetLabels: [String] = ["Infrastructure", "Max Speeds", "Signals", "Electrification", "Track Gauge"]
 
     var body: some View {
         NavigationView {
