@@ -28,6 +28,14 @@ struct CoolMap: UIViewRepresentable {
                 return MKTileOverlayRenderer()
             }
         }
+        
+        func mapView(_ mapView: MKMapView, regionDidChangeAnimated animated: Bool) {
+            print(mapView.camera.altitude)
+            if mapView.camera.altitude < 250 {
+                mapView.camera.altitude = 255
+            }
+        }
+
     }
 
     @Binding var overlay: MKTileOverlay
