@@ -12,6 +12,7 @@
 		2A8486BA292EBE4600757567 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8486B9292EBE4600757567 /* Assets.xcassets */; };
 		2A8486BD292EBE4600757567 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A8486BC292EBE4600757567 /* Preview Assets.xcassets */; };
 		2A8486E4292EC64600757567 /* UIMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8486E3292EC64600757567 /* UIMap.swift */; };
+		2A8486E7292EE2C800757567 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8486E6292EE2C800757567 /* LocationModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2A8486BC292EBE4600757567 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A8486E3292EC64600757567 /* UIMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIMap.swift; sourceTree = "<group>"; };
 		2A8486E5292EDCE400757567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2A8486E6292EE2C800757567 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				2A8486E5292EDCE400757567 /* Info.plist */,
 				2A8486B5292EBE4500757567 /* OpenRailApp.swift */,
 				2A8486B7292EBE4500757567 /* ContentView.swift */,
+				2A8486E6292EE2C800757567 /* LocationModel.swift */,
 				2A8486E3292EC64600757567 /* UIMap.swift */,
 				2A8486B9292EBE4600757567 /* Assets.xcassets */,
 				2A8486BB292EBE4600757567 /* Preview Content */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A8486E7292EE2C800757567 /* LocationModel.swift in Sources */,
 				2A8486B8292EBE4500757567 /* ContentView.swift in Sources */,
 				2A8486B6292EBE4500757567 /* OpenRailApp.swift in Sources */,
 				2A8486E4292EC64600757567 /* UIMap.swift in Sources */,
@@ -277,6 +281,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenRail/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to display your current position on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +312,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenRail/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app uses your location to display your current position on the map.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
