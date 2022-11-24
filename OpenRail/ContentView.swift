@@ -24,7 +24,7 @@ struct ContentView: View {
     let overlayTargetLabels: [String] = ["Infrastructure", "Max Speeds", "Signals", "Electrification", "Track Gauge"]
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 CoolMap(overlay: $overlay, follow: $follow)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -70,7 +70,7 @@ struct ContentView: View {
                         } else {
                             Label("Center to current position", systemImage: "location")
                         }
-                    } 
+                    }
                 }
             }
         }
