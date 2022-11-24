@@ -68,7 +68,7 @@ struct CoolMap: UIViewRepresentable {
         }
         
         if follow {
-            let region = MKCoordinateRegion(center: lm.coords, latitudinalMeters: 500, longitudinalMeters: 500)
+            let region = MKCoordinateRegion(center: lm.coords, latitudinalMeters: 750, longitudinalMeters: 750)
             mapView.setRegion(region, animated: true)
             
             print(lm.coords)
